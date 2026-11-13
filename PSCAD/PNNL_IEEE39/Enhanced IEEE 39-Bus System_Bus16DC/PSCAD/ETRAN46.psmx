@@ -1,0 +1,6 @@
+<Meta name="ETRAN">
+  <messagelist />
+  <ViewContext>
+    <Window defn="ETRAN:Main" call="0" />
+  </ViewContext>
+</Meta>

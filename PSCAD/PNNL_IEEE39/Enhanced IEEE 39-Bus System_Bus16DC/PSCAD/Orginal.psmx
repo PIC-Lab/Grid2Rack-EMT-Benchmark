@@ -1,0 +1,643 @@
+<Meta name="Orginal">
+  <messagelist>
+    <message status="normal" label="build" groupid="400002" scope="Orginal" id="997194584" classid="MessageObj"><![CDATA[Begin compiling with PSCAD Version 5.0.2]]></message>
+    <message status="warning" label="build" groupid="204503" scope="Orginal" id="1809506919" classid="MessageObj"><![CDATA[One or more Fortran compiler checks and/or warning options are enabled in the project settings. It is recommended that these options be used during debugging only, as their use can result in a reduction of compile and/or simulation speed.]]></message>
+    <message status="normal" label="build" groupid="100006" id="1308181515" classid="CmpNavigator">
+      <User scope="Orginal" name="P3" status="normal" link="200000003" /><![CDATA[Compiling 'P3'. Generating network and data files.]]></message>
+    <message status="warning" label="build" groupid="206502" id="1244325207" classid="CmpNavigator">
+      <User scope="Orginal" name="master:logic_mult" status="warning" link="1097194310" /><![CDATA[Signal 'Charging1_Discharging0' type conversion may lose accuracy at connection 'IN1']]></message>
+    <message status="warning" label="build" groupid="206502" id="1307508990" classid="CmpNavigator">
+      <User scope="Orginal" name="master:logic_mult" status="warning" link="1097194310" /><![CDATA[Signal 'DBlk_Rect' type conversion may lose accuracy at connection 'IN2']]></message>
+    <message status="warning" label="build" groupid="206502" id="1343178708" classid="CmpNavigator">
+      <User scope="Orginal" name="master:inv" status="warning" link="501565035" /><![CDATA[Signal 'En_Bypass' type conversion may lose accuracy at connection 'IN']]></message>
+    <message status="warning" label="build" groupid="206502" id="1769551752" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:Rectifier_1_1" status="warning" link="382458798" /><![CDATA[Signal 'DBlk_Rect' type conversion may lose accuracy]]></message>
+    <message status="normal" label="build" groupid="100006" link="156488830" id="156488830" classid="FileNavigator"><![CDATA[Generating 'C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_Bus16DC\PSCAD\Orginal.gf46\Orginal.map'.]]><file scope="Orginal">C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_Bus16DC\PSCAD\Orginal.gf46\Orginal.map</file></message>
+    <message status="normal" label="build" groupid="100015" scope="Orginal" id="2117565180" classid="MessageObj"><![CDATA[The total number of live nodes: 185]]></message>
+    <message status="normal" label="build" groupid="0" link="124507324" id="124507324" classid="FileNavigator"><![CDATA[Coding .mak file: 'C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_Bus16DC\PSCAD\Orginal.gf46\\Orginal.mak']]><file scope="Orginal">C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_Bus16DC\PSCAD\Orginal.gf46\\Orginal.mak</file></message>
+    <message status="normal" label="build" groupid="400000" scope="Orginal" id="1429159847" classid="MessageObj"><![CDATA[Time for Compile: 391ms  Make: 47ms]]></message>
+    <message status="normal" label="build" groupid="400000" scope="Orginal" id="843123894" classid="MessageObj"><![CDATA[Solve Time = 437ms]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Orginal" id="701641472" classid="MessageObj"><![CDATA[Will execute (1): call C:\Program Files\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Orginal" id="428849970" classid="MessageObj"><![CDATA[Will execute (1): call "C:\Program Files\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Orginal" id="1437540155" classid="MessageObj"><![CDATA[Will execute (2): make -j -f Orginal.mak]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Orginal" id="1207506315" classid="MessageObj"><![CDATA[Will execute (2): "C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_Bus16DC\PSCAD\Orginal.gf46\Orginal_mak.bat"]]></message>
+    <message status="normal" label="build" groupid="100005" scope="Orginal" id="64414772" classid="MessageObj"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" groupid="0" scope="Orginal" id="1072610406" classid="MessageObj"><![CDATA[C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_Bus16DC\PSCAD\Orginal.gf46>call "C:\Program Files\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" groupid="100013" scope="Orginal" id="63445136" classid="MessageObj"><![CDATA[Linking objects and libraries into binary 'Orginal.exe']]></message>
+    <message status="normal" label="build" groupid="400003" scope="Orginal" id="523772554" classid="MessageObj"><![CDATA[Finished compiling with PSCAD Version 5.0.2]]></message>
+    <message status="normal" label="runtime" groupid="100014" id="1516821379" classid="CmpNavigator">
+      <User scope="Orginal" name="master:peswitch" status="normal" link="619582127" /><![CDATA[Progress 10%: Diode: Safety turn off in branch 59 of subsystem 1]]></message>
+    <message status="error" label="runtime" groupid="300008" scope="Orginal" id="89861977" classid="MessageObj"><![CDATA[Process has been terminated by user.]]></message>
+    <message status="warning" label="runtime" groupid="200009" scope="Orginal" id="2125432256" classid="MessageObj"><![CDATA[Simulation ending on user request.]]></message>
+    <message status="error" label="build" groupid="300503" id="207100190" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Common_Set" status="error" link="4966" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Common_Set']]></message>
+    <message status="error" label="build" groupid="300503" id="1293029679" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Common_Get" status="error" link="4964" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Common_Get']]></message>
+    <message status="error" label="build" groupid="300503" id="111488209" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Common_Get" status="error" link="4747" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Common_Get']]></message>
+    <message status="error" label="build" groupid="300503" id="30147523" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Pi" status="error" link="4791" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Pi']]></message>
+    <message status="error" label="build" groupid="300503" id="2078611300" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Pi" status="error" link="4794" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Pi']]></message>
+    <message status="error" label="build" groupid="300503" id="189013030" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4837" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="1014115094" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4841" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="495355889" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4842" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1920202256" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4843" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1257491925" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4844" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="448955066" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4845" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="542708161" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4846" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1849131938" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4847" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1502914530" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4848" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1426599013" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4849" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="564361764" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4850" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="50864259" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Pi" status="error" link="4854" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Pi']]></message>
+    <message status="error" label="build" groupid="300503" id="761136131" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4863" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="1302892971" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4867" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1005081942" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4876" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1005683673" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4885" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="2073615363" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4888" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="259126369" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4892" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1783749833" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4893" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="988361299" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4917" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1485302095" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4918" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="614904398" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4919" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1590393487" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4923" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="1213888340" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4927" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="1801992253" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4931" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="837319897" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4934" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="857586700" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4935" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="315810948" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4936" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="1673782961" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4940" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="346761901" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4944" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="655052678" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4956" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1315891368" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4960" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="2095261800" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:Load" status="error" link="1397749555" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:Load']]></message>
+    <message status="error" label="build" groupid="300503" id="58756658" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:UPS_Ctrl" status="error" link="982878067" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:UPS_Ctrl']]></message>
+    <message status="error" label="build" groupid="300503" id="527869284" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:DC_DC_Bi_1" status="error" link="545881884" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:DC_DC_Bi_1']]></message>
+    <message status="error" label="build" groupid="300503" id="771545386" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:Inverter_1" status="error" link="1059052670" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:Inverter_1']]></message>
+    <message status="error" label="build" groupid="300503" id="1487524721" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:Rectifier_1_1" status="error" link="382458798" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:Rectifier_1_1']]></message>
+    <message status="error" label="build" groupid="300503" id="672678180" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:CoolingLoad_1_1" status="error" link="2140894489" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:CoolingLoad_1_1']]></message>
+    <message status="error" label="build" groupid="300503" id="637581761" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:Battery" status="error" link="802127501" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:Battery']]></message>
+    <message status="error" label="build" groupid="300503" id="1784793055" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="337873515" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="1823286981" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4682" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="1338990492" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4736" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="432062958" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4737" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="454960483" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4743" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="414744165" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4617" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="518630425" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4671" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="95768377" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4672" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="816455245" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4678" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="67757914" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4552" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="30740245" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4606" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="2093923264" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4607" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="1503410469" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4613" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="2017619422" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4487" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="9187477" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4541" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="776091009" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4542" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="1005623017" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4548" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="1635286273" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4422" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="278352397" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4476" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="1002740206" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4477" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="755902180" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4483" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="1457843701" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4357" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="1163553750" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4411" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="1257249640" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4412" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="685347438" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4418" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="1526680451" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4292" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="888067352" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4346" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="1253364850" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4347" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="2128505906" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4353" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="1972413143" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4227" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="1308860123" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4281" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="477615689" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4282" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="569453423" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4288" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="1906913123" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4162" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="673988641" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4216" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="249632547" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4217" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="282130354" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4223" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="557378931" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4097" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="839862558" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4151" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="971178874" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4152" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="1936732734" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4158" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="1040965605" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Common_Set" status="error" link="4966" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Common_Set']]></message>
+    <message status="error" label="build" groupid="300503" id="323630724" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Common_Get" status="error" link="4964" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Common_Get']]></message>
+    <message status="error" label="build" groupid="300503" id="715234379" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Common_Get" status="error" link="4747" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Common_Get']]></message>
+    <message status="error" label="build" groupid="300503" id="1181298507" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Pi" status="error" link="4791" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Pi']]></message>
+    <message status="error" label="build" groupid="300503" id="181926315" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Pi" status="error" link="4794" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Pi']]></message>
+    <message status="error" label="build" groupid="300503" id="603259425" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4837" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="555542453" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4841" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1514551154" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4842" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="773969522" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4843" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="652445695" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4844" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1495114456" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4845" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1478926323" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4846" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="80014271" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4847" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="469884705" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4848" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="719672579" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4849" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1454594700" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4850" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1191147320" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Pi" status="error" link="4854" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Pi']]></message>
+    <message status="error" label="build" groupid="300503" id="944713492" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4863" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="591580133" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4867" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1692889757" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4876" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1841787062" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4885" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="1749615324" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4888" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="851804071" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4892" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1138158399" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4893" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="1035767753" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4917" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1779100014" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4918" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1849085341" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4919" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1437967465" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4923" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="2097508709" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4927" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="834834025" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4931" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="574025205" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4934" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1101293513" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4935" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="256470121" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4936" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="706174049" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4940" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="464146840" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4944" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="1335053014" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Load" status="error" link="4956" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Load']]></message>
+    <message status="error" label="build" groupid="300503" id="158344325" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="4960" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="100449477" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:Load" status="error" link="1397749555" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:Load']]></message>
+    <message status="error" label="build" groupid="300503" id="2902711" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:UPS_Ctrl" status="error" link="982878067" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:UPS_Ctrl']]></message>
+    <message status="error" label="build" groupid="300503" id="1893924698" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:DC_DC_Bi_1" status="error" link="545881884" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:DC_DC_Bi_1']]></message>
+    <message status="error" label="build" groupid="300503" id="1614375216" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:Inverter_1" status="error" link="1059052670" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:Inverter_1']]></message>
+    <message status="error" label="build" groupid="300503" id="1987760312" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:Rectifier_1_1" status="error" link="382458798" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:Rectifier_1_1']]></message>
+    <message status="error" label="build" groupid="300503" id="871813136" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:CoolingLoad_1_1" status="error" link="2140894489" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:CoolingLoad_1_1']]></message>
+    <message status="error" label="build" groupid="300503" id="1141894097" classid="CmpNavigator">
+      <User scope="Orginal" name="AIDataCenter_Model_Library:Battery" status="error" link="802127501" /><![CDATA[Unable to resolve definition 'AIDataCenter_Model_Library:Battery']]></message>
+    <message status="error" label="build" groupid="300503" id="1371624915" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_xfmr_2w" status="error" link="337873515" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_xfmr_2w']]></message>
+    <message status="error" label="build" groupid="300503" id="178014909" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4682" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="1819833421" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4736" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="583216212" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4737" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="915134364" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4743" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="922055550" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4617" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="317061258" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4671" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="1837048431" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4672" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="399653040" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4678" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="234706987" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4552" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="1932059372" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4606" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="1308306779" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4607" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="869138522" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4613" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="882571372" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4487" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="1781042716" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4541" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="1236348060" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4542" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="1388768538" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4548" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="838763128" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4422" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="912041053" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4476" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="797009262" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4477" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="1286515145" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4483" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="1748830761" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4357" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="165155250" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4411" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="1830902014" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4412" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="1160711999" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4418" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="455138940" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4292" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="1700688754" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4346" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="2142547422" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4347" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="551934871" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4353" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="192150969" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4227" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="1657801474" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4281" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="1162117330" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4282" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="1395943449" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4288" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="874858210" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4162" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="693592274" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4216" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="2007596571" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4217" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="626799061" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4223" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+    <message status="error" label="build" groupid="300503" id="613088886" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_Init_Conditions" status="error" link="4097" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_Init_Conditions']]></message>
+    <message status="error" label="build" groupid="300503" id="567291670" classid="CmpNavigator">
+      <User scope="Orginal" name="ETRAN:Electranix_PSSE_Machine" status="error" link="4151" /><![CDATA[Unable to resolve definition 'ETRAN:Electranix_PSSE_Machine']]></message>
+    <message status="error" label="build" groupid="300503" id="984946595" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Exciter_Models" status="error" link="4152" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Exciter_Models']]></message>
+    <message status="error" label="build" groupid="300503" id="523263423" classid="CmpNavigator">
+      <User scope="Orginal" name="Electranix_PSSE_Governors" status="error" link="4158" /><![CDATA[Unable to resolve definition 'Electranix_PSSE_Governors']]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="Orginal:P3" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="P3" zoomscale="2.34375" scrollx="3678" scrolly="6905" />
+    <View name="G_38_0_1_DYR" zoomscale="1.5" scrollx="0" scrolly="1071" />
+    <View name="G_39_0_1_DYR" zoomscale="1.5" scrollx="0" scrolly="875" />
+    <View name="P2" zoomscale="1.5" scrollx="0" scrolly="0" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2026/11/03" time="19:02:03.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="240.963855422" end="1205" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0)\P1(0)\P3(0):Q_Grid" index="1" gindex="100663297" id="1185036123:0" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):VRMS_Grid" index="2" gindex="100663298" id="1394545509:0" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0):P_Rect" index="3" gindex="100663299" id="32007997:0" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0):V_DC_Link" index="4" gindex="100663300" id="2061401834:0" label="" dim="1" unit="kV" min="0.5" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):IRMS_Bypass" index="5" gindex="100663301" id="359261641:0" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):IDClink" index="6" gindex="100663302" id="976736554:0" label="" dim="1" unit="MVAr" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):IRMS_Rect" index="7" gindex="100663303" id="2113355473:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD37" index="8" gindex="100663304" id="1009553643:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V37" index="9" gindex="100663305" id="868467707:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P37" index="10" gindex="100663306" id="1085195537:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q37" index="11" gindex="100663307" id="213094465:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD38" index="12" gindex="100663308" id="1913334901:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V38" index="13" gindex="100663309" id="171450402:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P38" index="14" gindex="100663310" id="411484456:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q38" index="15" gindex="100663311" id="798484410:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q39" index="16" gindex="100663312" id="2043656497:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P39" index="17" gindex="100663313" id="928513170:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V39" index="18" gindex="100663314" id="907027103:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD39" index="19" gindex="100663315" id="1802910126:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q36" index="20" gindex="100663316" id="1746660818:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P36" index="21" gindex="100663317" id="1261468197:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V36" index="22" gindex="100663318" id="160440574:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD36" index="23" gindex="100663319" id="768632145:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q35" index="24" gindex="100663320" id="642081397:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P35" index="25" gindex="100663321" id="542534119:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V35" index="26" gindex="100663322" id="1377060823:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD35" index="27" gindex="100663323" id="1659162928:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q34" index="28" gindex="100663324" id="1128382553:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P34" index="29" gindex="100663325" id="44361197:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V34" index="30" gindex="100663326" id="818471842:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD34" index="31" gindex="100663327" id="1628691266:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q33" index="32" gindex="100663328" id="1137461587:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P33" index="33" gindex="100663329" id="1620568647:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V33" index="34" gindex="100663330" id="1583271337:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD33" index="35" gindex="100663331" id="286580273:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q32" index="36" gindex="100663332" id="763270084:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P32" index="37" gindex="100663333" id="115957564:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V32" index="38" gindex="100663334" id="1354389079:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD32" index="39" gindex="100663335" id="1640964834:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q31" index="40" gindex="100663336" id="742684244:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P31" index="41" gindex="100663337" id="1601980372:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V31" index="42" gindex="100663338" id="220468052:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD31" index="43" gindex="100663339" id="147713023:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q30" index="44" gindex="100663340" id="518740083:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P30" index="45" gindex="100663341" id="814604080:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V30" index="46" gindex="100663342" id="2115405417:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD30" index="47" gindex="100663343" id="76620425:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Charging1_Discharging0" index="48" gindex="100663344" id="1761730329:0" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0):DBlk_Rect" index="49" gindex="100663345" id="1803614668:0" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0):En_Bypass" index="50" gindex="100663346" id="969704609:0" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0):frequency_m" index="51" gindex="100663347" id="2011309721:0" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0):I_DCDC" index="52" gindex="100663348" id="363566804:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SOC" index="53" gindex="100663349" id="1862374371:0" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P_Load" index="54" gindex="100663350" id="1527606408:0" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0):P_Inv" index="55" gindex="100663351" id="1694158389:0" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0):I_battery" index="56" gindex="100663352" id="908467118:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P_Grid" index="57" gindex="100663353" id="1837246577:0" label="" dim="1" unit="pu" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0):P_battery" index="58" gindex="100663354" id="1494473513:0" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0):P_Bypass" index="59" gindex="100663355" id="1191681564:0" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0):V_battery" index="60" gindex="100663356" id="1389238600:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Vabc_Load" index="61" gindex="100663357" id="37055056:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P_DCDC" index="64" gindex="100663360" id="563212242:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):VRMS_Load" index="65" gindex="100663361" id="3304886:0" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0):Vgabc" index="66" gindex="100663362" id="1368523359:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):V_dc" index="69" gindex="100663365" id="100873827:0" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):V_term_pu" index="70" gindex="100663366" id="2093510402:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):Motor currents" index="71" gindex="100663367" id="1552453441:0" label="" dim="3" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):Q_VFD" index="74" gindex="100663370" id="1392380322:0" label="" dim="1" unit="kVAr" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="75" gindex="100663371" id="449458204:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):P_VFD" index="76" gindex="100663372" id="2060512828:0" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):Pel" index="77" gindex="100663373" id="101936833:0" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):ia" index="78" gindex="100663374" id="1009436026:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):Ia_ref" index="79" gindex="100663375" id="12877432:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):G4" index="80" gindex="100663376" id="845440621:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):wm" index="81" gindex="100663377" id="157422681:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):G1" index="82" gindex="100663378" id="661033902:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="83" gindex="100663379" id="974138650:0" label="" dim="1" unit="p.u." min="-1.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="84" gindex="100663380" id="1333278153:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):Tm" index="85" gindex="100663381" id="1745777446:0" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):Te" index="86" gindex="100663382" id="1963076782:0" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):W_m" index="87" gindex="100663383" id="819872488:0" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="88" gindex="100663384" id="1857691632:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Battery(0):Battery Voltage" index="89" gindex="100663385" id="557835899:0" label="" dim="1" unit="V" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Battery(0):Battery Current" index="90" gindex="100663386" id="23392412:0" label="" dim="1" unit="A" min="-20" max="20" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Battery(0):Battery Power" index="91" gindex="100663387" id="882863686:0" label="" dim="1" unit="MW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Battery(0):State of charge" index="92" gindex="100663388" id="2039779394:0" label="" dim="1" unit="" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):Q_38" index="93" gindex="100663389" id="436016200:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):P_38" index="94" gindex="100663390" id="435950664:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):Vm_38" index="95" gindex="100663391" id="931382208:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):TM_38" index="96" gindex="100663392" id="493670304:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):TE_38" index="97" gindex="100663393" id="849900664:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):If_38" index="98" gindex="100663394" id="172457145:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):Ef_38" index="99" gindex="100663395" id="172719289:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):Wpu_38" index="100" gindex="100663396" id="46499993:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):Wang_38" index="101" gindex="100663397" id="2068268600:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):Q_37" index="102" gindex="100663398" id="667924087:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):P_37" index="103" gindex="100663399" id="667858551:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):Vm_37" index="104" gindex="100663400" id="1996475049:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):TM_37" index="105" gindex="100663401" id="873439735:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):TE_37" index="106" gindex="100663402" id="1229670095:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):If_37" index="107" gindex="100663403" id="1089228490:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):Ef_37" index="108" gindex="100663404" id="1089490634:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):Wpu_37" index="109" gindex="100663405" id="2144398928:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):Wang_37" index="110" gindex="100663406" id="1980933719:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):Q_34" index="111" gindex="100663407" id="1417221192:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):P_34" index="112" gindex="100663408" id="1417155656:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):Vm_34" index="113" gindex="100663409" id="1121489430:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):TM_34" index="114" gindex="100663410" id="303300938:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):TE_34" index="115" gindex="100663411" id="52929422:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):If_34" index="116" gindex="100663412" id="88953975:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):Ef_34" index="117" gindex="100663413" id="89216119:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):Wpu_34" index="118" gindex="100663414" id="1386101143:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):Wang_34" index="119" gindex="100663415" id="142513466:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):Q_32" index="120" gindex="100663416" id="1866263480:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):P_32" index="121" gindex="100663417" id="1866329016:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):Vm_32" index="122" gindex="100663418" id="1303477068:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):TM_32" index="123" gindex="100663419" id="121313300:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):TE_32" index="124" gindex="100663420" id="234917060:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):If_32" index="125" gindex="100663421" id="2062402131:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):Ef_32" index="126" gindex="100663422" id="2062139987:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):Wpu_32" index="127" gindex="100663423" id="102703821:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):Wang_32" index="128" gindex="100663424" id="575034364:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):Q_31" index="129" gindex="100663425" id="240391240:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):P_31" index="130" gindex="100663426" id="240325704:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):Vm_31" index="131" gindex="100663427" id="1788076677:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):TM_31" index="132" gindex="100663428" id="1082100251:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):TE_31" index="133" gindex="100663429" id="1438330611:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):If_31" index="134" gindex="100663430" id="1835720668:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):Ef_31" index="135" gindex="100663431" id="1835982812:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):Wpu_31" index="136" gindex="100663432" id="671788594:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):Wang_31" index="137" gindex="100663433" id="1893004843:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):Q_30" index="138" gindex="100663434" id="1910838344:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):P_30" index="139" gindex="100663435" id="1910772808:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):Vm_30" index="140" gindex="100663436" id="89823761:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):TM_30" index="141" gindex="100663437" id="1514876273:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):TE_30" index="142" gindex="100663438" id="1871106633:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):If_30" index="143" gindex="100663439" id="2011548238:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):Ef_30" index="144" gindex="100663440" id="2011286094:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):Wpu_30" index="145" gindex="100663441" id="1248384312:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):Wang_30" index="146" gindex="100663442" id="355168961:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):Q_33" index="147" gindex="100663443" id="758256712:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):P_33" index="148" gindex="100663444" id="758191176:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):Vm_33" index="149" gindex="100663445" id="850498070:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):TM_33" index="150" gindex="100663446" id="574292298:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):TE_33" index="151" gindex="100663447" id="218061938:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):If_33" index="152" gindex="100663448" id="359945335:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):Ef_33" index="153" gindex="100663449" id="360207479:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):Wpu_33" index="154" gindex="100663450" id="847329687:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):Wang_33" index="155" gindex="100663451" id="937323206:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):Q_39" index="156" gindex="100663452" id="1234430904:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):P_39" index="157" gindex="100663453" id="1234496440:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):Vm_39" index="158" gindex="100663454" id="181722735:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):TM_39" index="159" gindex="100663455" id="1606775247:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):TE_39" index="160" gindex="100663456" id="1963005607:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):If_39" index="161" gindex="100663457" id="134078744:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):Ef_39" index="162" gindex="100663458" id="133816600:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):Wpu_39" index="163" gindex="100663459" id="774958082:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):Wang_39" index="164" gindex="100663460" id="139895817:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):Q_36" index="165" gindex="100663461" id="1956596105:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):P_36" index="166" gindex="100663462" id="1956661641:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):Vm_36" index="167" gindex="100663463" id="527139746:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):TM_36" index="168" gindex="100663464" id="1952192258:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):TE_36" index="169" gindex="100663465" id="1595961898:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):If_36" index="170" gindex="100663466" id="1395764379:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):Ef_36" index="171" gindex="100663467" id="1396026523:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):Wpu_36" index="172" gindex="100663468" id="1735755339:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):Wang_36" index="173" gindex="100663469" id="2086881414:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):Q_35" index="174" gindex="100663470" id="150058615:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):P_35" index="175" gindex="100663471" id="149993079:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):Vm_35" index="176" gindex="100663472" id="1327268770:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):TM_35" index="177" gindex="100663473" id="1542646014:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):TE_35" index="178" gindex="100663474" id="1898876374:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):If_35" index="179" gindex="100663475" id="595635355:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):Ef_35" index="180" gindex="100663476" id="595897499:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):Wpu_35" index="181" gindex="100663477" id="497514933:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):Wang_35" index="182" gindex="100663478" id="1172195462:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):E_ord" index="183" gindex="100663479" id="1262953366:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Vac_ord_pu" index="184" gindex="100663480" id="976349856:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Id_Ramp_In" index="185" gindex="100663481" id="1891274248:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Vqpu" index="186" gindex="100663482" id="1654114330:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):vq1ref" index="187" gindex="100663483" id="440602820:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Iq_ord_pu" index="188" gindex="100663484" id="1628613482:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Mag" index="189" gindex="100663485" id="945562089:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Vdpu" index="190" gindex="100663486" id="180083569:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Vddelta" index="191" gindex="100663487" id="1562060912:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):vd1ref" index="192" gindex="100663488" id="1765851270:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Id_ord_pu" index="193" gindex="100663489" id="2012246957:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Vdc Ctrl" index="194" gindex="100663490" id="394347512:0" label="" dim="2" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Vqpu_1" index="196" gindex="100663492" id="274025853:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Vq" index="197" gindex="100663493" id="645090773:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Vdpu_1" index="198" gindex="100663494" id="1918476288:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Vd" index="199" gindex="100663495" id="1718991499:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Iqpu" index="200" gindex="100663496" id="269005039:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Idpu" index="201" gindex="100663497" id="1830747268:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Error_PLL" index="202" gindex="100663498" id="294522118:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):thetaPLL" index="203" gindex="100663499" id="1932584614:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):E_con" index="204" gindex="100663500" id="322970082:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):fre_PLL" index="207" gindex="100663503" id="560179102:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):IdrefMax" index="208" gindex="100663504" id="1819120289:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):IqrefMax" index="209" gindex="100663505" id="2083757874:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):V_GS" index="210" gindex="100663506" id="1045700408:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):I_GS" index="213" gindex="100663509" id="1687891338:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Ecap" index="216" gindex="100663512" id="983155106:0" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):P_GS" index="217" gindex="100663513" id="152040823:0" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):V_GS" index="218" gindex="100663514" id="461166653:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):I_GS" index="221" gindex="100663517" id="1360034507:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Pcap" index="224" gindex="100663520" id="1842611214:0" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):V_rms_GS" index="225" gindex="100663521" id="1118053646:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Icap" index="226" gindex="100663522" id="1399218762:0" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):P_Rec" index="227" gindex="100663523" id="1813534774:0" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Qpu" index="228" gindex="100663524" id="468622904:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Edc_pu" index="229" gindex="100663525" id="282161773:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Ppu" index="230" gindex="100663526" id="1106342617:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Vref" index="231" gindex="100663527" id="1594933947:0" label="" dim="3" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):P_ord" index="234" gindex="100663530" id="403308771:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):Q_ord_pu" index="235" gindex="100663531" id="1328440560:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Rectifier_1_1(0):E_ord_pu" index="236" gindex="100663532" id="1897212868:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\UPS_Ctrl(0):Vabc_rms" index="237" gindex="100663533" id="385448298:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):Dlim Bst" index="240" gindex="100663536" id="1708766249:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):Mode" index="241" gindex="100663537" id="690024453:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):Pdc" index="242" gindex="100663538" id="102152874:0" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):Battery power" index="243" gindex="100663539" id="38609396:0" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):VH" index="244" gindex="100663540" id="341721467:0" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):VL" index="245" gindex="100663541" id="1068847720:0" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):IH" index="246" gindex="100663542" id="1661784457:0" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):IL" index="247" gindex="100663543" id="708453642:0" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):Pref_pu" index="248" gindex="100663544" id="2017511067:0" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):Ref_Buck" index="249" gindex="100663545" id="1992793345:0" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):RT_2" index="250" gindex="100663546" id="631232459:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):Pref" index="251" gindex="100663547" id="1803580567:0" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):EnBoost" index="252" gindex="100663548" id="1039078243:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):Ref_Boost" index="253" gindex="100663549" id="1329288961:0" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):EnBuck" index="254" gindex="100663550" id="1195215408:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DC_DC_Bi_1(0):Vleq" index="255" gindex="100663551" id="1388376983:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):Ecap" index="256" gindex="100663552" id="1090281724:0" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):V_GS" index="257" gindex="100663553" id="946875703:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):Vac_ord_pu" index="260" gindex="100663556" id="537451095:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):E_con" index="261" gindex="100663557" id="122518572:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):Pf_Gr" index="264" gindex="100663560" id="417237079:0" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):Qf_Gr" index="265" gindex="100663561" id="1482783896:0" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):Icap" index="266" gindex="100663562" id="2004104426:0" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):VsRMSpu" index="267" gindex="100663563" id="1727829025:0" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):Pcap" index="268" gindex="100663564" id="1727735759:0" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):thetaVCO" index="269" gindex="100663565" id="1766524741:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):DB_lim_abc" index="270" gindex="100663566" id="1858197686:0" label="" dim="12" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):Mag" index="282" gindex="100663578" id="1609303168:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):Vac_droop" index="283" gindex="100663579" id="1146094959:0" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):I_GS" index="284" gindex="100663580" id="308949330:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):P_GS" index="287" gindex="100663583" id="2035853293:0" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):V_GS" index="288" gindex="100663584" id="420692499:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):I_GS" index="291" gindex="100663587" id="1605133633:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\Inverter_1(0):P_Converter" index="294" gindex="100663590" id="1804026687:0" label="" dim="1" unit="" min="0.0" max="1.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>
