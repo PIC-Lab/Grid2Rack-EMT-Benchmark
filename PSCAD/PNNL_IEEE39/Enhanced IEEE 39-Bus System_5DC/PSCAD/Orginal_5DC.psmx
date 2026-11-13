@@ -1,0 +1,783 @@
+<Meta name="Orginal_5DC">
+  <messagelist>
+    <message status="normal" label="build" groupid="400002" scope="Orginal" id="890316338" classid="MessageObj"><![CDATA[Begin compiling with PSCAD Version 5.0.2]]></message>
+    <message status="warning" label="build" groupid="204503" scope="Orginal" id="318980419" classid="MessageObj"><![CDATA[One or more Fortran compiler checks and/or warning options are enabled in the project settings. It is recommended that these options be used during debugging only, as their use can result in a reduction of compile and/or simulation speed.]]></message>
+    <message status="normal" label="build" groupid="100006" link="1314981835" id="1314981835" classid="FileNavigator"><![CDATA[Generating 'C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_5DC\PSCAD\Orginal_5DC.gf46\Orginal_5DC.map'.]]><file scope="Orginal">C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_5DC\PSCAD\Orginal_5DC.gf46\Orginal_5DC.map</file></message>
+    <message status="normal" label="build" groupid="100015" scope="Orginal" id="855286196" classid="MessageObj"><![CDATA[The total number of live nodes: 589]]></message>
+    <message status="normal" label="build" groupid="0" link="326831690" id="326831690" classid="FileNavigator"><![CDATA[Coding .mak file: 'C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_5DC\PSCAD\Orginal_5DC.gf46\\Orginal_5DC.mak']]><file scope="Orginal">C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_5DC\PSCAD\Orginal_5DC.gf46\\Orginal_5DC.mak</file></message>
+    <message status="normal" label="build" groupid="400000" scope="Orginal" id="1001657736" classid="MessageObj"><![CDATA[Time for Compile: 0ms  Make: 78ms]]></message>
+    <message status="normal" label="build" groupid="400000" scope="Orginal" id="526168903" classid="MessageObj"><![CDATA[Solve Time = 578ms]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Orginal" id="1963196023" classid="MessageObj"><![CDATA[Will execute (1): call C:\Program Files\GFortran\4.6\bin\gf46vars.bat]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Orginal" id="1083538526" classid="MessageObj"><![CDATA[Will execute (1): call "C:\Program Files\GFortran\4.6\bin\gf46vars.bat"]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Orginal" id="382659156" classid="MessageObj"><![CDATA[Will execute (2): make -j -f Orginal_5DC.mak]]></message>
+    <message status="normal" label="build" groupid="100016" scope="Orginal" id="821777291" classid="MessageObj"><![CDATA[Will execute (2): "C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_5DC\PSCAD\Orginal_5DC.gf46\Orginal_5DC_mak.bat"]]></message>
+    <message status="normal" label="build" groupid="100005" scope="Orginal" id="400523298" classid="MessageObj"><![CDATA[Creating EMTDC executable...]]></message>
+    <message status="normal" label="build" groupid="0" scope="Orginal" id="392622264" classid="MessageObj"><![CDATA[C:\Users\Picstudent\Desktop\Research\Work\DataCenterModel\PSCAD\PNNL_IEEE39\Enhanced IEEE 39-Bus System_5DC\PSCAD\Orginal_5DC.gf46>call "C:\Program Files\GFortran\4.6\bin\gf46vars.bat" ]]></message>
+    <message status="normal" label="build" groupid="100013" scope="Orginal" id="403303967" classid="MessageObj"><![CDATA[Linking objects and libraries into binary 'Orginal_5DC.exe']]></message>
+    <message status="normal" label="build" groupid="400003" scope="Orginal" id="1805327536" classid="MessageObj"><![CDATA[Finished compiling with PSCAD Version 5.0.2]]></message>
+    <message status="normal" label="runtime" groupid="100014" id="324191831" classid="CmpNavigator">
+      <User scope="Orginal_5DC" name="master:peswitch" status="normal" link="1644895726" /><![CDATA[Progress 3%: Diode: Safety turn off in branch 60 of subsystem 10]]></message>
+    <message status="normal" label="runtime" groupid="100014" id="1184931591" classid="CmpNavigator">
+      <User scope="Orginal_5DC" name="master:peswitch" status="normal" link="726379619" /><![CDATA[Progress 7%: Diode: Safety turn off in branch 56 of subsystem 11]]></message>
+    <message status="error" label="runtime" groupid="300008" scope="Orginal" id="1497541067" classid="MessageObj"><![CDATA[Process has been terminated by user.]]></message>
+    <message status="warning" label="runtime" groupid="200009" scope="Orginal" id="673018324" classid="MessageObj"><![CDATA[Simulation ending on user request.]]></message>
+  </messagelist>
+  <ViewContext>
+    <Window defn="Orginal_5DC:P3" call="0" />
+  </ViewContext>
+  <List classid="View">
+    <View name="Main" zoomscale="1.5" scrollx="0" scrolly="0" />
+    <View name="P3" zoomscale="1.875" scrollx="4192" scrolly="4556" />
+    <View name="DataCenter_Ercot_1" zoomscale="1.5" scrollx="0" scrolly="737" />
+    <View name="DataCenter_Ercot_2" zoomscale="0.96" scrollx="1560" scrolly="495" />
+  </List>
+  <Output device="EMTDC" version="2010" date="2026/11/05" time="17:00:07.000000">
+    <Domain name="Time" unit="s" mult="0.0" skew="0.0">
+      <Sample rate="240.963855422" end="1205" />
+    </Domain>
+    <List classid="Analog">
+      <Analog name="Main(0)\P1(0)\P3(0):SPD37" index="1" gindex="100663297" id="1009553643:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V37" index="2" gindex="100663298" id="868467707:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P37" index="3" gindex="100663299" id="1085195537:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q37" index="4" gindex="100663300" id="213094465:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD38" index="5" gindex="100663301" id="1913334901:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V38" index="6" gindex="100663302" id="171450402:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P38" index="7" gindex="100663303" id="411484456:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q38" index="8" gindex="100663304" id="798484410:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q39_PCC" index="9" gindex="100663305" id="1341523805:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0):V39_PCC" index="10" gindex="100663306" id="1185020857:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q39" index="11" gindex="100663307" id="2043656497:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P39" index="12" gindex="100663308" id="928513170:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V39" index="13" gindex="100663309" id="907027103:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD39" index="14" gindex="100663310" id="1802910126:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q36" index="15" gindex="100663311" id="1746660818:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P36" index="16" gindex="100663312" id="1261468197:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V36" index="17" gindex="100663313" id="160440574:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD36" index="18" gindex="100663314" id="768632145:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q35" index="19" gindex="100663315" id="642081397:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P35" index="20" gindex="100663316" id="542534119:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V35" index="21" gindex="100663317" id="1377060823:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD35" index="22" gindex="100663318" id="1659162928:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q34" index="23" gindex="100663319" id="1128382553:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P34" index="24" gindex="100663320" id="44361197:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V34" index="25" gindex="100663321" id="818471842:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD34" index="26" gindex="100663322" id="1628691266:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q33" index="27" gindex="100663323" id="1137461587:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P33" index="28" gindex="100663324" id="1620568647:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V33" index="29" gindex="100663325" id="1583271337:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD33" index="30" gindex="100663326" id="286580273:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q32" index="31" gindex="100663327" id="763270084:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P32" index="32" gindex="100663328" id="115957564:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V32" index="33" gindex="100663329" id="1354389079:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD32" index="34" gindex="100663330" id="1640964834:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q31" index="35" gindex="100663331" id="742684244:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P31" index="36" gindex="100663332" id="1601980372:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V31" index="37" gindex="100663333" id="220468052:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD31" index="38" gindex="100663334" id="147713023:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):Q30" index="39" gindex="100663335" id="518740083:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):P30" index="40" gindex="100663336" id="814604080:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):V30" index="41" gindex="100663337" id="2115405417:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0):SPD30" index="42" gindex="100663338" id="76620425:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):Q_Grid" index="43" gindex="100663339" id="877140230:0" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):VRMS_Grid" index="44" gindex="100663340" id="886407973:0" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):P_Rect" index="45" gindex="100663341" id="2001378061:0" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):V_DC_Link" index="46" gindex="100663342" id="376780073:0" label="" dim="1" unit="kV" min="0.5" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):IRMS_Bypass" index="47" gindex="100663343" id="854017858:0" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):IDClink" index="48" gindex="100663344" id="2128333112:0" label="" dim="1" unit="MVAr" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):IRMS_Rect" index="49" gindex="100663345" id="1809231354:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):Charging1_Discharging0" index="50" gindex="100663346" id="964555277:0" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):DBlk_Rect" index="51" gindex="100663347" id="1978147032:0" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):En_Bypass" index="52" gindex="100663348" id="1288462236:0" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):frequency_m" index="53" gindex="100663349" id="1879634212:0" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):I_DCDC" index="54" gindex="100663350" id="347901462:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):SOC" index="55" gindex="100663351" id="923606676:0" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):P_Load" index="56" gindex="100663352" id="1218172624:0" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):P_Inv" index="57" gindex="100663353" id="1255168344:0" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):I_battery" index="58" gindex="100663354" id="1787478652:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):P_Grid" index="59" gindex="100663355" id="464557246:0" label="" dim="1" unit="pu" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):P_battery" index="60" gindex="100663356" id="218119716:0" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):P_Bypass" index="61" gindex="100663357" id="260784992:0" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):V_battery" index="62" gindex="100663358" id="293208919:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):Vabc_Load" index="63" gindex="100663359" id="1893048602:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):P_DCDC" index="66" gindex="100663362" id="2142789931:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):VRMS_Load" index="67" gindex="100663363" id="1221761778:0" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2):Vgabc" index="68" gindex="100663364" id="607844321:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):V_dc" index="71" gindex="100663367" id="100873827:0" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):V_term_pu" index="72" gindex="100663368" id="2093510402:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):Motor currents" index="73" gindex="100663369" id="1552453441:0" label="" dim="3" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):Q_VFD" index="76" gindex="100663372" id="1392380322:0" label="" dim="1" unit="kVAr" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="77" gindex="100663373" id="449458204:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):P_VFD" index="78" gindex="100663374" id="2060512828:0" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):Pel" index="79" gindex="100663375" id="101936833:0" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):ia" index="80" gindex="100663376" id="1009436026:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):Ia_ref" index="81" gindex="100663377" id="12877432:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):G4" index="82" gindex="100663378" id="845440621:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):wm" index="83" gindex="100663379" id="157422681:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):G1" index="84" gindex="100663380" id="661033902:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="85" gindex="100663381" id="974138650:0" label="" dim="1" unit="p.u." min="-1.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="86" gindex="100663382" id="1333278153:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):Tm" index="87" gindex="100663383" id="1745777446:0" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):Te" index="88" gindex="100663384" id="1963076782:0" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):W_m" index="89" gindex="100663385" id="819872488:0" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="90" gindex="100663386" id="1857691632:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Battery(0):Battery Voltage" index="91" gindex="100663387" id="557835899:0" label="" dim="1" unit="V" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Battery(0):Battery Current" index="92" gindex="100663388" id="23392412:0" label="" dim="1" unit="A" min="-20" max="20" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Battery(0):Battery Power" index="93" gindex="100663389" id="882863686:0" label="" dim="1" unit="MW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Battery(0):State of charge" index="94" gindex="100663390" id="2039779394:0" label="" dim="1" unit="" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):E_ord" index="95" gindex="100663391" id="1262953366:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Vac_ord_pu" index="96" gindex="100663392" id="976349856:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Id_Ramp_In" index="97" gindex="100663393" id="1891274248:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Vqpu" index="98" gindex="100663394" id="1654114330:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):vq1ref" index="99" gindex="100663395" id="440602820:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Iq_ord_pu" index="100" gindex="100663396" id="1628613482:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Mag" index="101" gindex="100663397" id="945562089:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Vdpu" index="102" gindex="100663398" id="180083569:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Vddelta" index="103" gindex="100663399" id="1562060912:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):vd1ref" index="104" gindex="100663400" id="1765851270:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Id_ord_pu" index="105" gindex="100663401" id="2012246957:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Vdc Ctrl" index="106" gindex="100663402" id="394347512:0" label="" dim="2" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Vqpu_1" index="108" gindex="100663404" id="274025853:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Vq" index="109" gindex="100663405" id="645090773:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Vdpu_1" index="110" gindex="100663406" id="1918476288:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Vd" index="111" gindex="100663407" id="1718991499:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Iqpu" index="112" gindex="100663408" id="269005039:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Idpu" index="113" gindex="100663409" id="1830747268:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Error_PLL" index="114" gindex="100663410" id="294522118:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):thetaPLL" index="115" gindex="100663411" id="1932584614:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):E_con" index="116" gindex="100663412" id="322970082:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):fre_PLL" index="119" gindex="100663415" id="560179102:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):IdrefMax" index="120" gindex="100663416" id="1819120289:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):IqrefMax" index="121" gindex="100663417" id="2083757874:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):V_GS" index="122" gindex="100663418" id="1045700408:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):I_GS" index="125" gindex="100663421" id="1687891338:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Ecap" index="128" gindex="100663424" id="983155106:0" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):P_GS" index="129" gindex="100663425" id="152040823:0" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):V_GS" index="130" gindex="100663426" id="461166653:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):I_GS" index="133" gindex="100663429" id="1360034507:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Pcap" index="136" gindex="100663432" id="1842611214:0" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):V_rms_GS" index="137" gindex="100663433" id="1118053646:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Icap" index="138" gindex="100663434" id="1399218762:0" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):P_Rec" index="139" gindex="100663435" id="1813534774:0" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Qpu" index="140" gindex="100663436" id="468622904:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Edc_pu" index="141" gindex="100663437" id="282161773:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Ppu" index="142" gindex="100663438" id="1106342617:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Vref" index="143" gindex="100663439" id="1594933947:0" label="" dim="3" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):P_ord" index="146" gindex="100663442" id="403308771:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):Q_ord_pu" index="147" gindex="100663443" id="1328440560:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Rectifier_1_1(0):E_ord_pu" index="148" gindex="100663444" id="1897212868:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\UPS_Ctrl(0):Vabc_rms" index="149" gindex="100663445" id="385448298:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):Dlim Bst" index="152" gindex="100663448" id="1708766249:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):Mode" index="153" gindex="100663449" id="690024453:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):Pdc" index="154" gindex="100663450" id="102152874:0" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):Battery power" index="155" gindex="100663451" id="38609396:0" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):VH" index="156" gindex="100663452" id="341721467:0" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):VL" index="157" gindex="100663453" id="1068847720:0" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):IH" index="158" gindex="100663454" id="1661784457:0" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):IL" index="159" gindex="100663455" id="708453642:0" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):Pref_pu" index="160" gindex="100663456" id="2017511067:0" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):Ref_Buck" index="161" gindex="100663457" id="1992793345:0" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):RT_2" index="162" gindex="100663458" id="631232459:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):Pref" index="163" gindex="100663459" id="1803580567:0" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):EnBoost" index="164" gindex="100663460" id="1039078243:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):Ref_Boost" index="165" gindex="100663461" id="1329288961:0" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):EnBuck" index="166" gindex="100663462" id="1195215408:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\DC_DC_Bi_1(0):Vleq" index="167" gindex="100663463" id="1388376983:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):Ecap" index="168" gindex="100663464" id="1090281724:0" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):V_GS" index="169" gindex="100663465" id="946875703:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):Vac_ord_pu" index="172" gindex="100663468" id="537451095:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):E_con" index="173" gindex="100663469" id="122518572:0" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):Pf_Gr" index="176" gindex="100663472" id="417237079:0" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):Qf_Gr" index="177" gindex="100663473" id="1482783896:0" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):Icap" index="178" gindex="100663474" id="2004104426:0" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):VsRMSpu" index="179" gindex="100663475" id="1727829025:0" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):Pcap" index="180" gindex="100663476" id="1727735759:0" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):thetaVCO" index="181" gindex="100663477" id="1766524741:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):DB_lim_abc" index="182" gindex="100663478" id="1858197686:0" label="" dim="12" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):Mag" index="194" gindex="100663490" id="1609303168:0" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):Vac_droop" index="195" gindex="100663491" id="1146094959:0" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):I_GS" index="196" gindex="100663492" id="308949330:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):P_GS" index="199" gindex="100663495" id="2035853293:0" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):V_GS" index="200" gindex="100663496" id="420692499:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):I_GS" index="203" gindex="100663499" id="1605133633:0" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter2)\Inverter_1(0):P_Converter" index="206" gindex="100663502" id="1804026687:0" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Q_Grid" index="207" gindex="100663503" id="877140230:1" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):VRMS_Grid" index="208" gindex="100663504" id="886407973:1" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Rect" index="209" gindex="100663505" id="2001378061:1" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):V_DC_Link" index="210" gindex="100663506" id="376780073:1" label="" dim="1" unit="kV" min="0.5" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IRMS_Bypass" index="211" gindex="100663507" id="854017858:1" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IDClink" index="212" gindex="100663508" id="2128333112:1" label="" dim="1" unit="MVAr" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IRMS_Rect" index="213" gindex="100663509" id="1809231354:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Charging1_Discharging0" index="214" gindex="100663510" id="964555277:1" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):DBlk_Rect" index="215" gindex="100663511" id="1978147032:1" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):En_Bypass" index="216" gindex="100663512" id="1288462236:1" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):frequency_m" index="217" gindex="100663513" id="1879634212:1" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):I_DCDC" index="218" gindex="100663514" id="347901462:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):SOC" index="219" gindex="100663515" id="923606676:1" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Load" index="220" gindex="100663516" id="1218172624:1" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Inv" index="221" gindex="100663517" id="1255168344:1" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):I_battery" index="222" gindex="100663518" id="1787478652:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Grid" index="223" gindex="100663519" id="464557246:1" label="" dim="1" unit="pu" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_battery" index="224" gindex="100663520" id="218119716:1" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Bypass" index="225" gindex="100663521" id="260784992:1" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):V_battery" index="226" gindex="100663522" id="293208919:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Vabc_Load" index="227" gindex="100663523" id="1893048602:1" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_DCDC" index="230" gindex="100663526" id="2142789931:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):VRMS_Load" index="231" gindex="100663527" id="1221761778:1" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Vgabc" index="232" gindex="100663528" id="607844321:1" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):V_dc" index="235" gindex="100663531" id="100873827:1" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):V_term_pu" index="236" gindex="100663532" id="2093510402:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Motor currents" index="237" gindex="100663533" id="1552453441:1" label="" dim="3" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Q_VFD" index="240" gindex="100663536" id="1392380322:1" label="" dim="1" unit="kVAr" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="241" gindex="100663537" id="449458204:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):P_VFD" index="242" gindex="100663538" id="2060512828:1" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Pel" index="243" gindex="100663539" id="101936833:1" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):ia" index="244" gindex="100663540" id="1009436026:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Ia_ref" index="245" gindex="100663541" id="12877432:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):G4" index="246" gindex="100663542" id="845440621:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wm" index="247" gindex="100663543" id="157422681:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):G1" index="248" gindex="100663544" id="661033902:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="249" gindex="100663545" id="974138650:1" label="" dim="1" unit="p.u." min="-1.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="250" gindex="100663546" id="1333278153:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Tm" index="251" gindex="100663547" id="1745777446:1" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Te" index="252" gindex="100663548" id="1963076782:1" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):W_m" index="253" gindex="100663549" id="819872488:1" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="254" gindex="100663550" id="1857691632:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(4):Battery Voltage" index="255" gindex="100663551" id="557835899:1" label="" dim="1" unit="V" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(4):Battery Current" index="256" gindex="100663552" id="23392412:1" label="" dim="1" unit="A" min="-20" max="20" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(4):Battery Power" index="257" gindex="100663553" id="882863686:1" label="" dim="1" unit="MW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(4):State of charge" index="258" gindex="100663554" id="2039779394:1" label="" dim="1" unit="" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):E_ord" index="259" gindex="100663555" id="1262953366:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Vac_ord_pu" index="260" gindex="100663556" id="976349856:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Id_Ramp_In" index="261" gindex="100663557" id="1891274248:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Vqpu" index="262" gindex="100663558" id="1654114330:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):vq1ref" index="263" gindex="100663559" id="440602820:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Iq_ord_pu" index="264" gindex="100663560" id="1628613482:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Mag" index="265" gindex="100663561" id="945562089:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Vdpu" index="266" gindex="100663562" id="180083569:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Vddelta" index="267" gindex="100663563" id="1562060912:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):vd1ref" index="268" gindex="100663564" id="1765851270:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Id_ord_pu" index="269" gindex="100663565" id="2012246957:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Vdc Ctrl" index="270" gindex="100663566" id="394347512:1" label="" dim="2" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Vqpu_1" index="272" gindex="100663568" id="274025853:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Vq" index="273" gindex="100663569" id="645090773:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Vdpu_1" index="274" gindex="100663570" id="1918476288:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Vd" index="275" gindex="100663571" id="1718991499:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Iqpu" index="276" gindex="100663572" id="269005039:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Idpu" index="277" gindex="100663573" id="1830747268:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Error_PLL" index="278" gindex="100663574" id="294522118:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):thetaPLL" index="279" gindex="100663575" id="1932584614:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):E_con" index="280" gindex="100663576" id="322970082:1" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):fre_PLL" index="283" gindex="100663579" id="560179102:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):IdrefMax" index="284" gindex="100663580" id="1819120289:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):IqrefMax" index="285" gindex="100663581" id="2083757874:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):V_GS" index="286" gindex="100663582" id="1045700408:1" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):I_GS" index="289" gindex="100663585" id="1687891338:1" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Ecap" index="292" gindex="100663588" id="983155106:1" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):P_GS" index="293" gindex="100663589" id="152040823:1" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):V_GS" index="294" gindex="100663590" id="461166653:1" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):I_GS" index="297" gindex="100663593" id="1360034507:1" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Pcap" index="300" gindex="100663596" id="1842611214:1" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):V_rms_GS" index="301" gindex="100663597" id="1118053646:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Icap" index="302" gindex="100663598" id="1399218762:1" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):P_Rec" index="303" gindex="100663599" id="1813534774:1" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Qpu" index="304" gindex="100663600" id="468622904:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Edc_pu" index="305" gindex="100663601" id="282161773:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Ppu" index="306" gindex="100663602" id="1106342617:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Vref" index="307" gindex="100663603" id="1594933947:1" label="" dim="3" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):P_ord" index="310" gindex="100663606" id="403308771:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):Q_ord_pu" index="311" gindex="100663607" id="1328440560:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(4):E_ord_pu" index="312" gindex="100663608" id="1897212868:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\UPS_Ctrl(4):Vabc_rms" index="313" gindex="100663609" id="385448298:1" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):Dlim Bst" index="316" gindex="100663612" id="1708766249:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):Mode" index="317" gindex="100663613" id="690024453:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):Pdc" index="318" gindex="100663614" id="102152874:1" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):Battery power" index="319" gindex="100663615" id="38609396:1" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):VH" index="320" gindex="100663616" id="341721467:1" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):VL" index="321" gindex="100663617" id="1068847720:1" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):IH" index="322" gindex="100663618" id="1661784457:1" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):IL" index="323" gindex="100663619" id="708453642:1" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):Pref_pu" index="324" gindex="100663620" id="2017511067:1" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):Ref_Buck" index="325" gindex="100663621" id="1992793345:1" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):RT_2" index="326" gindex="100663622" id="631232459:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):Pref" index="327" gindex="100663623" id="1803580567:1" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):EnBoost" index="328" gindex="100663624" id="1039078243:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):Ref_Boost" index="329" gindex="100663625" id="1329288961:1" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):EnBuck" index="330" gindex="100663626" id="1195215408:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(4):Vleq" index="331" gindex="100663627" id="1388376983:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):Ecap" index="332" gindex="100663628" id="1090281724:1" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):V_GS" index="333" gindex="100663629" id="946875703:1" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):Vac_ord_pu" index="336" gindex="100663632" id="537451095:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):E_con" index="337" gindex="100663633" id="122518572:1" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):Pf_Gr" index="340" gindex="100663636" id="417237079:1" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):Qf_Gr" index="341" gindex="100663637" id="1482783896:1" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):Icap" index="342" gindex="100663638" id="2004104426:1" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):VsRMSpu" index="343" gindex="100663639" id="1727829025:1" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):Pcap" index="344" gindex="100663640" id="1727735759:1" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):thetaVCO" index="345" gindex="100663641" id="1766524741:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):DB_lim_abc" index="346" gindex="100663642" id="1858197686:1" label="" dim="12" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):Mag" index="358" gindex="100663654" id="1609303168:1" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):Vac_droop" index="359" gindex="100663655" id="1146094959:1" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):I_GS" index="360" gindex="100663656" id="308949330:1" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):P_GS" index="363" gindex="100663659" id="2035853293:1" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):V_GS" index="364" gindex="100663660" id="420692499:1" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):I_GS" index="367" gindex="100663663" id="1605133633:1" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(4):P_Converter" index="370" gindex="100663666" id="1804026687:1" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):Q_38" index="371" gindex="100663667" id="436016200:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):P_38" index="372" gindex="100663668" id="435950664:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):Vm_38" index="373" gindex="100663669" id="931382208:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):TM_38" index="374" gindex="100663670" id="493670304:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):TE_38" index="375" gindex="100663671" id="849900664:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):If_38" index="376" gindex="100663672" id="172457145:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):Ef_38" index="377" gindex="100663673" id="172719289:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):Wpu_38" index="378" gindex="100663674" id="46499993:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_38_0_1_DYR(0):Wang_38" index="379" gindex="100663675" id="2068268600:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):Q_37" index="380" gindex="100663676" id="667924087:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):P_37" index="381" gindex="100663677" id="667858551:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):Vm_37" index="382" gindex="100663678" id="1996475049:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):TM_37" index="383" gindex="100663679" id="873439735:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):TE_37" index="384" gindex="100663680" id="1229670095:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):If_37" index="385" gindex="100663681" id="1089228490:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):Ef_37" index="386" gindex="100663682" id="1089490634:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):Wpu_37" index="387" gindex="100663683" id="2144398928:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_37_0_1_DYR(0):Wang_37" index="388" gindex="100663684" id="1980933719:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Q_Grid" index="389" gindex="100663685" id="877140230:2" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):VRMS_Grid" index="390" gindex="100663686" id="886407973:2" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Rect" index="391" gindex="100663687" id="2001378061:2" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):V_DC_Link" index="392" gindex="100663688" id="376780073:2" label="" dim="1" unit="kV" min="0.5" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IRMS_Bypass" index="393" gindex="100663689" id="854017858:2" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IDClink" index="394" gindex="100663690" id="2128333112:2" label="" dim="1" unit="MVAr" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IRMS_Rect" index="395" gindex="100663691" id="1809231354:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Charging1_Discharging0" index="396" gindex="100663692" id="964555277:2" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):DBlk_Rect" index="397" gindex="100663693" id="1978147032:2" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):En_Bypass" index="398" gindex="100663694" id="1288462236:2" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):frequency_m" index="399" gindex="100663695" id="1879634212:2" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):I_DCDC" index="400" gindex="100663696" id="347901462:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):SOC" index="401" gindex="100663697" id="923606676:2" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Load" index="402" gindex="100663698" id="1218172624:2" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Inv" index="403" gindex="100663699" id="1255168344:2" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):I_battery" index="404" gindex="100663700" id="1787478652:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Grid" index="405" gindex="100663701" id="464557246:2" label="" dim="1" unit="pu" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_battery" index="406" gindex="100663702" id="218119716:2" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Bypass" index="407" gindex="100663703" id="260784992:2" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):V_battery" index="408" gindex="100663704" id="293208919:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Vabc_Load" index="409" gindex="100663705" id="1893048602:2" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_DCDC" index="412" gindex="100663708" id="2142789931:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):VRMS_Load" index="413" gindex="100663709" id="1221761778:2" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Vgabc" index="414" gindex="100663710" id="607844321:2" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):V_dc" index="417" gindex="100663713" id="100873827:2" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):V_term_pu" index="418" gindex="100663714" id="2093510402:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Motor currents" index="419" gindex="100663715" id="1552453441:2" label="" dim="3" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Q_VFD" index="422" gindex="100663718" id="1392380322:2" label="" dim="1" unit="kVAr" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="423" gindex="100663719" id="449458204:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):P_VFD" index="424" gindex="100663720" id="2060512828:2" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Pel" index="425" gindex="100663721" id="101936833:2" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):ia" index="426" gindex="100663722" id="1009436026:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Ia_ref" index="427" gindex="100663723" id="12877432:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):G4" index="428" gindex="100663724" id="845440621:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wm" index="429" gindex="100663725" id="157422681:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):G1" index="430" gindex="100663726" id="661033902:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="431" gindex="100663727" id="974138650:2" label="" dim="1" unit="p.u." min="-1.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="432" gindex="100663728" id="1333278153:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Tm" index="433" gindex="100663729" id="1745777446:2" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Te" index="434" gindex="100663730" id="1963076782:2" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):W_m" index="435" gindex="100663731" id="819872488:2" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="436" gindex="100663732" id="1857691632:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(1):Battery Voltage" index="437" gindex="100663733" id="557835899:2" label="" dim="1" unit="V" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(1):Battery Current" index="438" gindex="100663734" id="23392412:2" label="" dim="1" unit="A" min="-20" max="20" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(1):Battery Power" index="439" gindex="100663735" id="882863686:2" label="" dim="1" unit="MW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(1):State of charge" index="440" gindex="100663736" id="2039779394:2" label="" dim="1" unit="" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):E_ord" index="441" gindex="100663737" id="1262953366:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Vac_ord_pu" index="442" gindex="100663738" id="976349856:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Id_Ramp_In" index="443" gindex="100663739" id="1891274248:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Vqpu" index="444" gindex="100663740" id="1654114330:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):vq1ref" index="445" gindex="100663741" id="440602820:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Iq_ord_pu" index="446" gindex="100663742" id="1628613482:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Mag" index="447" gindex="100663743" id="945562089:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Vdpu" index="448" gindex="100663744" id="180083569:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Vddelta" index="449" gindex="100663745" id="1562060912:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):vd1ref" index="450" gindex="100663746" id="1765851270:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Id_ord_pu" index="451" gindex="100663747" id="2012246957:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Vdc Ctrl" index="452" gindex="100663748" id="394347512:2" label="" dim="2" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Vqpu_1" index="454" gindex="100663750" id="274025853:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Vq" index="455" gindex="100663751" id="645090773:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Vdpu_1" index="456" gindex="100663752" id="1918476288:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Vd" index="457" gindex="100663753" id="1718991499:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Iqpu" index="458" gindex="100663754" id="269005039:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Idpu" index="459" gindex="100663755" id="1830747268:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Error_PLL" index="460" gindex="100663756" id="294522118:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):thetaPLL" index="461" gindex="100663757" id="1932584614:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):E_con" index="462" gindex="100663758" id="322970082:2" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):fre_PLL" index="465" gindex="100663761" id="560179102:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):IdrefMax" index="466" gindex="100663762" id="1819120289:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):IqrefMax" index="467" gindex="100663763" id="2083757874:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):V_GS" index="468" gindex="100663764" id="1045700408:2" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):I_GS" index="471" gindex="100663767" id="1687891338:2" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Ecap" index="474" gindex="100663770" id="983155106:2" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):P_GS" index="475" gindex="100663771" id="152040823:2" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):V_GS" index="476" gindex="100663772" id="461166653:2" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):I_GS" index="479" gindex="100663775" id="1360034507:2" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Pcap" index="482" gindex="100663778" id="1842611214:2" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):V_rms_GS" index="483" gindex="100663779" id="1118053646:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Icap" index="484" gindex="100663780" id="1399218762:2" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):P_Rec" index="485" gindex="100663781" id="1813534774:2" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Qpu" index="486" gindex="100663782" id="468622904:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Edc_pu" index="487" gindex="100663783" id="282161773:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Ppu" index="488" gindex="100663784" id="1106342617:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Vref" index="489" gindex="100663785" id="1594933947:2" label="" dim="3" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):P_ord" index="492" gindex="100663788" id="403308771:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):Q_ord_pu" index="493" gindex="100663789" id="1328440560:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(1):E_ord_pu" index="494" gindex="100663790" id="1897212868:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\UPS_Ctrl(1):Vabc_rms" index="495" gindex="100663791" id="385448298:2" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):Dlim Bst" index="498" gindex="100663794" id="1708766249:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):Mode" index="499" gindex="100663795" id="690024453:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):Pdc" index="500" gindex="100663796" id="102152874:2" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):Battery power" index="501" gindex="100663797" id="38609396:2" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):VH" index="502" gindex="100663798" id="341721467:2" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):VL" index="503" gindex="100663799" id="1068847720:2" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):IH" index="504" gindex="100663800" id="1661784457:2" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):IL" index="505" gindex="100663801" id="708453642:2" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):Pref_pu" index="506" gindex="100663802" id="2017511067:2" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):Ref_Buck" index="507" gindex="100663803" id="1992793345:2" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):RT_2" index="508" gindex="100663804" id="631232459:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):Pref" index="509" gindex="100663805" id="1803580567:2" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):EnBoost" index="510" gindex="100663806" id="1039078243:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):Ref_Boost" index="511" gindex="100663807" id="1329288961:2" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):EnBuck" index="512" gindex="100663808" id="1195215408:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(1):Vleq" index="513" gindex="100663809" id="1388376983:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):Ecap" index="514" gindex="100663810" id="1090281724:2" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):V_GS" index="515" gindex="100663811" id="946875703:2" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):Vac_ord_pu" index="518" gindex="100663814" id="537451095:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):E_con" index="519" gindex="100663815" id="122518572:2" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):Pf_Gr" index="522" gindex="100663818" id="417237079:2" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):Qf_Gr" index="523" gindex="100663819" id="1482783896:2" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):Icap" index="524" gindex="100663820" id="2004104426:2" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):VsRMSpu" index="525" gindex="100663821" id="1727829025:2" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):Pcap" index="526" gindex="100663822" id="1727735759:2" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):thetaVCO" index="527" gindex="100663823" id="1766524741:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):DB_lim_abc" index="528" gindex="100663824" id="1858197686:2" label="" dim="12" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):Mag" index="540" gindex="100663836" id="1609303168:2" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):Vac_droop" index="541" gindex="100663837" id="1146094959:2" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):I_GS" index="542" gindex="100663838" id="308949330:2" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):P_GS" index="545" gindex="100663841" id="2035853293:2" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):V_GS" index="546" gindex="100663842" id="420692499:2" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):I_GS" index="549" gindex="100663845" id="1605133633:2" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(1):P_Converter" index="552" gindex="100663848" id="1804026687:2" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):Q_34" index="553" gindex="100663849" id="1417221192:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):P_34" index="554" gindex="100663850" id="1417155656:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):Vm_34" index="555" gindex="100663851" id="1121489430:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):TM_34" index="556" gindex="100663852" id="303300938:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):TE_34" index="557" gindex="100663853" id="52929422:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):If_34" index="558" gindex="100663854" id="88953975:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):Ef_34" index="559" gindex="100663855" id="89216119:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):Wpu_34" index="560" gindex="100663856" id="1386101143:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_34_0_1_DYR(0):Wang_34" index="561" gindex="100663857" id="142513466:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):Q_32" index="562" gindex="100663858" id="1866263480:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):P_32" index="563" gindex="100663859" id="1866329016:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):Vm_32" index="564" gindex="100663860" id="1303477068:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):TM_32" index="565" gindex="100663861" id="121313300:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):TE_32" index="566" gindex="100663862" id="234917060:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):If_32" index="567" gindex="100663863" id="2062402131:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):Ef_32" index="568" gindex="100663864" id="2062139987:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):Wpu_32" index="569" gindex="100663865" id="102703821:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_32_0_1_DYR(0):Wang_32" index="570" gindex="100663866" id="575034364:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):Q_31" index="571" gindex="100663867" id="240391240:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):P_31" index="572" gindex="100663868" id="240325704:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):Vm_31" index="573" gindex="100663869" id="1788076677:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):TM_31" index="574" gindex="100663870" id="1082100251:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):TE_31" index="575" gindex="100663871" id="1438330611:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):If_31" index="576" gindex="100663872" id="1835720668:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):Ef_31" index="577" gindex="100663873" id="1835982812:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):Wpu_31" index="578" gindex="100663874" id="671788594:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_31_0_1_DYR(0):Wang_31" index="579" gindex="100663875" id="1893004843:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):Q_30" index="580" gindex="100663876" id="1910838344:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):P_30" index="581" gindex="100663877" id="1910772808:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):Vm_30" index="582" gindex="100663878" id="89823761:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):TM_30" index="583" gindex="100663879" id="1514876273:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):TE_30" index="584" gindex="100663880" id="1871106633:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):If_30" index="585" gindex="100663881" id="2011548238:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):Ef_30" index="586" gindex="100663882" id="2011286094:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):Wpu_30" index="587" gindex="100663883" id="1248384312:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_30_0_1_DYR(0):Wang_30" index="588" gindex="100663884" id="355168961:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):Q_33" index="589" gindex="100663885" id="758256712:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):P_33" index="590" gindex="100663886" id="758191176:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):Vm_33" index="591" gindex="100663887" id="850498070:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):TM_33" index="592" gindex="100663888" id="574292298:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):TE_33" index="593" gindex="100663889" id="218061938:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):If_33" index="594" gindex="100663890" id="359945335:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):Ef_33" index="595" gindex="100663891" id="360207479:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):Wpu_33" index="596" gindex="100663892" id="847329687:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_33_0_1_DYR(0):Wang_33" index="597" gindex="100663893" id="937323206:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):P_39" index="598" gindex="100663894" id="1234496440:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):Vm_39" index="599" gindex="100663895" id="181722735:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):TM_39" index="600" gindex="100663896" id="1606775247:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):TE_39" index="601" gindex="100663897" id="1963005607:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):If_39" index="602" gindex="100663898" id="134078744:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):Ef_39" index="603" gindex="100663899" id="133816600:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):Wpu_39" index="604" gindex="100663900" id="774958082:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_39_0_1_DYR(0):Wang_39" index="605" gindex="100663901" id="139895817:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Q_Grid" index="606" gindex="100663902" id="877140230:3" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):VRMS_Grid" index="607" gindex="100663903" id="886407973:3" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Rect" index="608" gindex="100663904" id="2001378061:3" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):V_DC_Link" index="609" gindex="100663905" id="376780073:3" label="" dim="1" unit="kV" min="0.5" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IRMS_Bypass" index="610" gindex="100663906" id="854017858:3" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IDClink" index="611" gindex="100663907" id="2128333112:3" label="" dim="1" unit="MVAr" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IRMS_Rect" index="612" gindex="100663908" id="1809231354:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Charging1_Discharging0" index="613" gindex="100663909" id="964555277:3" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):DBlk_Rect" index="614" gindex="100663910" id="1978147032:3" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):En_Bypass" index="615" gindex="100663911" id="1288462236:3" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):frequency_m" index="616" gindex="100663912" id="1879634212:3" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):I_DCDC" index="617" gindex="100663913" id="347901462:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):SOC" index="618" gindex="100663914" id="923606676:3" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Load" index="619" gindex="100663915" id="1218172624:3" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Inv" index="620" gindex="100663916" id="1255168344:3" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):I_battery" index="621" gindex="100663917" id="1787478652:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Grid" index="622" gindex="100663918" id="464557246:3" label="" dim="1" unit="pu" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_battery" index="623" gindex="100663919" id="218119716:3" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Bypass" index="624" gindex="100663920" id="260784992:3" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):V_battery" index="625" gindex="100663921" id="293208919:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Vabc_Load" index="626" gindex="100663922" id="1893048602:3" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_DCDC" index="629" gindex="100663925" id="2142789931:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):VRMS_Load" index="630" gindex="100663926" id="1221761778:3" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Vgabc" index="631" gindex="100663927" id="607844321:3" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):V_dc" index="634" gindex="100663930" id="100873827:3" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):V_term_pu" index="635" gindex="100663931" id="2093510402:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Motor currents" index="636" gindex="100663932" id="1552453441:3" label="" dim="3" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Q_VFD" index="639" gindex="100663935" id="1392380322:3" label="" dim="1" unit="kVAr" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="640" gindex="100663936" id="449458204:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):P_VFD" index="641" gindex="100663937" id="2060512828:3" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Pel" index="642" gindex="100663938" id="101936833:3" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):ia" index="643" gindex="100663939" id="1009436026:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Ia_ref" index="644" gindex="100663940" id="12877432:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):G4" index="645" gindex="100663941" id="845440621:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wm" index="646" gindex="100663942" id="157422681:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):G1" index="647" gindex="100663943" id="661033902:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="648" gindex="100663944" id="974138650:3" label="" dim="1" unit="p.u." min="-1.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="649" gindex="100663945" id="1333278153:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Tm" index="650" gindex="100663946" id="1745777446:3" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Te" index="651" gindex="100663947" id="1963076782:3" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):W_m" index="652" gindex="100663948" id="819872488:3" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="653" gindex="100663949" id="1857691632:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(3):Battery Voltage" index="654" gindex="100663950" id="557835899:3" label="" dim="1" unit="V" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(3):Battery Current" index="655" gindex="100663951" id="23392412:3" label="" dim="1" unit="A" min="-20" max="20" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(3):Battery Power" index="656" gindex="100663952" id="882863686:3" label="" dim="1" unit="MW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(3):State of charge" index="657" gindex="100663953" id="2039779394:3" label="" dim="1" unit="" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):E_ord" index="658" gindex="100663954" id="1262953366:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Vac_ord_pu" index="659" gindex="100663955" id="976349856:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Id_Ramp_In" index="660" gindex="100663956" id="1891274248:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Vqpu" index="661" gindex="100663957" id="1654114330:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):vq1ref" index="662" gindex="100663958" id="440602820:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Iq_ord_pu" index="663" gindex="100663959" id="1628613482:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Mag" index="664" gindex="100663960" id="945562089:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Vdpu" index="665" gindex="100663961" id="180083569:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Vddelta" index="666" gindex="100663962" id="1562060912:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):vd1ref" index="667" gindex="100663963" id="1765851270:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Id_ord_pu" index="668" gindex="100663964" id="2012246957:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Vdc Ctrl" index="669" gindex="100663965" id="394347512:3" label="" dim="2" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Vqpu_1" index="671" gindex="100663967" id="274025853:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Vq" index="672" gindex="100663968" id="645090773:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Vdpu_1" index="673" gindex="100663969" id="1918476288:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Vd" index="674" gindex="100663970" id="1718991499:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Iqpu" index="675" gindex="100663971" id="269005039:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Idpu" index="676" gindex="100663972" id="1830747268:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Error_PLL" index="677" gindex="100663973" id="294522118:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):thetaPLL" index="678" gindex="100663974" id="1932584614:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):E_con" index="679" gindex="100663975" id="322970082:3" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):fre_PLL" index="682" gindex="100663978" id="560179102:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):IdrefMax" index="683" gindex="100663979" id="1819120289:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):IqrefMax" index="684" gindex="100663980" id="2083757874:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):V_GS" index="685" gindex="100663981" id="1045700408:3" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):I_GS" index="688" gindex="100663984" id="1687891338:3" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Ecap" index="691" gindex="100663987" id="983155106:3" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):P_GS" index="692" gindex="100663988" id="152040823:3" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):V_GS" index="693" gindex="100663989" id="461166653:3" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):I_GS" index="696" gindex="100663992" id="1360034507:3" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Pcap" index="699" gindex="100663995" id="1842611214:3" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):V_rms_GS" index="700" gindex="100663996" id="1118053646:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Icap" index="701" gindex="100663997" id="1399218762:3" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):P_Rec" index="702" gindex="100663998" id="1813534774:3" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Qpu" index="703" gindex="100663999" id="468622904:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Edc_pu" index="704" gindex="100664000" id="282161773:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Ppu" index="705" gindex="100664001" id="1106342617:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Vref" index="706" gindex="100664002" id="1594933947:3" label="" dim="3" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):P_ord" index="709" gindex="100664005" id="403308771:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):Q_ord_pu" index="710" gindex="100664006" id="1328440560:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(3):E_ord_pu" index="711" gindex="100664007" id="1897212868:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\UPS_Ctrl(3):Vabc_rms" index="712" gindex="100664008" id="385448298:3" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):Dlim Bst" index="715" gindex="100664011" id="1708766249:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):Mode" index="716" gindex="100664012" id="690024453:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):Pdc" index="717" gindex="100664013" id="102152874:3" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):Battery power" index="718" gindex="100664014" id="38609396:3" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):VH" index="719" gindex="100664015" id="341721467:3" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):VL" index="720" gindex="100664016" id="1068847720:3" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):IH" index="721" gindex="100664017" id="1661784457:3" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):IL" index="722" gindex="100664018" id="708453642:3" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):Pref_pu" index="723" gindex="100664019" id="2017511067:3" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):Ref_Buck" index="724" gindex="100664020" id="1992793345:3" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):RT_2" index="725" gindex="100664021" id="631232459:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):Pref" index="726" gindex="100664022" id="1803580567:3" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):EnBoost" index="727" gindex="100664023" id="1039078243:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):Ref_Boost" index="728" gindex="100664024" id="1329288961:3" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):EnBuck" index="729" gindex="100664025" id="1195215408:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(3):Vleq" index="730" gindex="100664026" id="1388376983:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):Ecap" index="731" gindex="100664027" id="1090281724:3" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):V_GS" index="732" gindex="100664028" id="946875703:3" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):Vac_ord_pu" index="735" gindex="100664031" id="537451095:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):E_con" index="736" gindex="100664032" id="122518572:3" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):Pf_Gr" index="739" gindex="100664035" id="417237079:3" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):Qf_Gr" index="740" gindex="100664036" id="1482783896:3" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):Icap" index="741" gindex="100664037" id="2004104426:3" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):VsRMSpu" index="742" gindex="100664038" id="1727829025:3" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):Pcap" index="743" gindex="100664039" id="1727735759:3" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):thetaVCO" index="744" gindex="100664040" id="1766524741:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):DB_lim_abc" index="745" gindex="100664041" id="1858197686:3" label="" dim="12" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):Mag" index="757" gindex="100664053" id="1609303168:3" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):Vac_droop" index="758" gindex="100664054" id="1146094959:3" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):I_GS" index="759" gindex="100664055" id="308949330:3" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):P_GS" index="762" gindex="100664058" id="2035853293:3" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):V_GS" index="763" gindex="100664059" id="420692499:3" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):I_GS" index="766" gindex="100664062" id="1605133633:3" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(3):P_Converter" index="769" gindex="100664065" id="1804026687:3" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Q_Grid" index="770" gindex="100664066" id="877140230:4" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):VRMS_Grid" index="771" gindex="100664067" id="886407973:4" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Rect" index="772" gindex="100664068" id="2001378061:4" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):V_DC_Link" index="773" gindex="100664069" id="376780073:4" label="" dim="1" unit="kV" min="0.5" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IRMS_Bypass" index="774" gindex="100664070" id="854017858:4" label="" dim="1" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IDClink" index="775" gindex="100664071" id="2128333112:4" label="" dim="1" unit="MVAr" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):IRMS_Rect" index="776" gindex="100664072" id="1809231354:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Charging1_Discharging0" index="777" gindex="100664073" id="964555277:4" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):DBlk_Rect" index="778" gindex="100664074" id="1978147032:4" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):En_Bypass" index="779" gindex="100664075" id="1288462236:4" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):frequency_m" index="780" gindex="100664076" id="1879634212:4" label="" dim="1" unit="" min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):I_DCDC" index="781" gindex="100664077" id="347901462:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):SOC" index="782" gindex="100664078" id="923606676:4" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Load" index="783" gindex="100664079" id="1218172624:4" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Inv" index="784" gindex="100664080" id="1255168344:4" label="" dim="1" unit="MW" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):I_battery" index="785" gindex="100664081" id="1787478652:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Grid" index="786" gindex="100664082" id="464557246:4" label="" dim="1" unit="pu" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_battery" index="787" gindex="100664083" id="218119716:4" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_Bypass" index="788" gindex="100664084" id="260784992:4" label="" dim="1" unit="" min="-1.0" max="0.8" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):V_battery" index="789" gindex="100664085" id="293208919:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Vabc_Load" index="790" gindex="100664086" id="1893048602:4" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):P_DCDC" index="793" gindex="100664089" id="2142789931:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):VRMS_Load" index="794" gindex="100664090" id="1221761778:4" label="" dim="1" unit="p.u." min="-0.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1):Vgabc" index="795" gindex="100664091" id="607844321:4" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):V_dc" index="798" gindex="100664094" id="100873827:4" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):V_term_pu" index="799" gindex="100664095" id="2093510402:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Motor currents" index="800" gindex="100664096" id="1552453441:4" label="" dim="3" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Q_VFD" index="803" gindex="100664099" id="1392380322:4" label="" dim="1" unit="kVAr" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="804" gindex="100664100" id="449458204:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):P_VFD" index="805" gindex="100664101" id="2060512828:4" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Pel" index="806" gindex="100664102" id="101936833:4" label="" dim="1" unit="kW" min="-20.0" max="20.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):ia" index="807" gindex="100664103" id="1009436026:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Ia_ref" index="808" gindex="100664104" id="12877432:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):G4" index="809" gindex="100664105" id="845440621:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wm" index="810" gindex="100664106" id="157422681:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):G1" index="811" gindex="100664107" id="661033902:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="812" gindex="100664108" id="974138650:4" label="" dim="1" unit="p.u." min="-1.2" max="1.2" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Idref" index="813" gindex="100664109" id="1333278153:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Tm" index="814" gindex="100664110" id="1745777446:4" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):Te" index="815" gindex="100664111" id="1963076782:4" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):W_m" index="816" gindex="100664112" id="819872488:4" label="" dim="1" unit="p.u." min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\CoolingLoad_1_1(CoolingLoad_1_1):wref" index="817" gindex="100664113" id="1857691632:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(2):Battery Voltage" index="818" gindex="100664114" id="557835899:4" label="" dim="1" unit="V" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(2):Battery Current" index="819" gindex="100664115" id="23392412:4" label="" dim="1" unit="A" min="-20" max="20" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(2):Battery Power" index="820" gindex="100664116" id="882863686:4" label="" dim="1" unit="MW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Battery(2):State of charge" index="821" gindex="100664117" id="2039779394:4" label="" dim="1" unit="" min="0" max="350" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):E_ord" index="822" gindex="100664118" id="1262953366:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Vac_ord_pu" index="823" gindex="100664119" id="976349856:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Id_Ramp_In" index="824" gindex="100664120" id="1891274248:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Vqpu" index="825" gindex="100664121" id="1654114330:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):vq1ref" index="826" gindex="100664122" id="440602820:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Iq_ord_pu" index="827" gindex="100664123" id="1628613482:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Mag" index="828" gindex="100664124" id="945562089:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Vdpu" index="829" gindex="100664125" id="180083569:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Vddelta" index="830" gindex="100664126" id="1562060912:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):vd1ref" index="831" gindex="100664127" id="1765851270:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Id_ord_pu" index="832" gindex="100664128" id="2012246957:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Vdc Ctrl" index="833" gindex="100664129" id="394347512:4" label="" dim="2" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Vqpu_1" index="835" gindex="100664131" id="274025853:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Vq" index="836" gindex="100664132" id="645090773:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Vdpu_1" index="837" gindex="100664133" id="1918476288:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Vd" index="838" gindex="100664134" id="1718991499:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Iqpu" index="839" gindex="100664135" id="269005039:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Idpu" index="840" gindex="100664136" id="1830747268:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Error_PLL" index="841" gindex="100664137" id="294522118:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):thetaPLL" index="842" gindex="100664138" id="1932584614:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):E_con" index="843" gindex="100664139" id="322970082:4" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):fre_PLL" index="846" gindex="100664142" id="560179102:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):IdrefMax" index="847" gindex="100664143" id="1819120289:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):IqrefMax" index="848" gindex="100664144" id="2083757874:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):V_GS" index="849" gindex="100664145" id="1045700408:4" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):I_GS" index="852" gindex="100664148" id="1687891338:4" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Ecap" index="855" gindex="100664151" id="983155106:4" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):P_GS" index="856" gindex="100664152" id="152040823:4" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):V_GS" index="857" gindex="100664153" id="461166653:4" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):I_GS" index="860" gindex="100664156" id="1360034507:4" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Pcap" index="863" gindex="100664159" id="1842611214:4" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):V_rms_GS" index="864" gindex="100664160" id="1118053646:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Icap" index="865" gindex="100664161" id="1399218762:4" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):P_Rec" index="866" gindex="100664162" id="1813534774:4" label="" dim="1" unit="MW" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Qpu" index="867" gindex="100664163" id="468622904:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Edc_pu" index="868" gindex="100664164" id="282161773:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Ppu" index="869" gindex="100664165" id="1106342617:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Vref" index="870" gindex="100664166" id="1594933947:4" label="" dim="3" unit="pu" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):P_ord" index="873" gindex="100664169" id="403308771:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):Q_ord_pu" index="874" gindex="100664170" id="1328440560:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Rectifier_1_1(2):E_ord_pu" index="875" gindex="100664171" id="1897212868:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\UPS_Ctrl(2):Vabc_rms" index="876" gindex="100664172" id="385448298:4" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):Dlim Bst" index="879" gindex="100664175" id="1708766249:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):Mode" index="880" gindex="100664176" id="690024453:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):Pdc" index="881" gindex="100664177" id="102152874:4" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):Battery power" index="882" gindex="100664178" id="38609396:4" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):VH" index="883" gindex="100664179" id="341721467:4" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):VL" index="884" gindex="100664180" id="1068847720:4" label="" dim="1" unit="kV" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):IH" index="885" gindex="100664181" id="1661784457:4" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):IL" index="886" gindex="100664182" id="708453642:4" label="" dim="1" unit="kA" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):Pref_pu" index="887" gindex="100664183" id="2017511067:4" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):Ref_Buck" index="888" gindex="100664184" id="1992793345:4" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):RT_2" index="889" gindex="100664185" id="631232459:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):Pref" index="890" gindex="100664186" id="1803580567:4" label="" dim="1" unit="kW" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):EnBoost" index="891" gindex="100664187" id="1039078243:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):Ref_Boost" index="892" gindex="100664188" id="1329288961:4" label="" dim="1" unit="%" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):EnBuck" index="893" gindex="100664189" id="1195215408:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\DC_DC_Bi_1(2):Vleq" index="894" gindex="100664190" id="1388376983:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):Ecap" index="895" gindex="100664191" id="1090281724:4" label="" dim="1" unit="kV" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):V_GS" index="896" gindex="100664192" id="946875703:4" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):Vac_ord_pu" index="899" gindex="100664195" id="537451095:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):E_con" index="900" gindex="100664196" id="122518572:4" label="" dim="3" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):Pf_Gr" index="903" gindex="100664199" id="417237079:4" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):Qf_Gr" index="904" gindex="100664200" id="1482783896:4" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):Icap" index="905" gindex="100664201" id="2004104426:4" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):VsRMSpu" index="906" gindex="100664202" id="1727829025:4" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):Pcap" index="907" gindex="100664203" id="1727735759:4" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):thetaVCO" index="908" gindex="100664204" id="1766524741:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):DB_lim_abc" index="909" gindex="100664205" id="1858197686:4" label="" dim="12" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):Mag" index="921" gindex="100664217" id="1609303168:4" label="" dim="1" unit="" min="-2.0" max="2.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):Vac_droop" index="922" gindex="100664218" id="1146094959:4" label="" dim="1" unit="kA" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):I_GS" index="923" gindex="100664219" id="308949330:4" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):P_GS" index="926" gindex="100664222" id="2035853293:4" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):V_GS" index="927" gindex="100664223" id="420692499:4" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):I_GS" index="930" gindex="100664226" id="1605133633:4" label="" dim="3" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\DataCenter_Ercot_2(DataCenter1)\Inverter_1(2):P_Converter" index="933" gindex="100664229" id="1804026687:4" label="" dim="1" unit="" min="0.0" max="1.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):Q_36" index="934" gindex="100664230" id="1956596105:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):P_36" index="935" gindex="100664231" id="1956661641:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):Vm_36" index="936" gindex="100664232" id="527139746:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):TM_36" index="937" gindex="100664233" id="1952192258:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):TE_36" index="938" gindex="100664234" id="1595961898:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):If_36" index="939" gindex="100664235" id="1395764379:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):Ef_36" index="940" gindex="100664236" id="1396026523:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):Wpu_36" index="941" gindex="100664237" id="1735755339:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_36_0_1_DYR(0):Wang_36" index="942" gindex="100664238" id="2086881414:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):Q_35" index="943" gindex="100664239" id="150058615:0" label="" dim="1" unit="MVAR" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):P_35" index="944" gindex="100664240" id="149993079:0" label="" dim="1" unit="MW" min="-1000" max="1000" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):Vm_35" index="945" gindex="100664241" id="1327268770:0" label="" dim="1" unit="pu" min="0.9" max="1.1" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):TM_35" index="946" gindex="100664242" id="1542646014:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):TE_35" index="947" gindex="100664243" id="1898876374:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):If_35" index="948" gindex="100664244" id="595635355:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):Ef_35" index="949" gindex="100664245" id="595897499:0" label="" dim="1" unit="pu" min="-1" max="4" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):Wpu_35" index="950" gindex="100664246" id="497514933:0" label="" dim="1" unit="pu" min="0.95" max="1.05" />
+      <Analog name="Main(0)\P1(0)\P3(0)\G_35_0_1_DYR(0):Wang_35" index="951" gindex="100664247" id="1172195462:0" label="" dim="1" unit="Deg" min="-180.0" max="180.0" />
+    </List>
+    <List classid="Digital" />
+  </Output>
+</Meta>

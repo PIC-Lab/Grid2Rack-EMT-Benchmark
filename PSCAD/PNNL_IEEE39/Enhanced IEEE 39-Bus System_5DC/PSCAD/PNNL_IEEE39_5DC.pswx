@@ -1,0 +1,16 @@
+<workspace name="PNNL_IEEE39_5DC" version="5.0.2" crc="21018163">
+  <projects>
+    <project type="library" name="ETRAN" filepath=".\ETRAN46.pslx" />
+    <project type="library" name="AIDataCenter_Model_Library" filepath=".\AIDataCenter_Model_Library.pslx" />
+    <project type="project" name="Orginal_5DC" filepath=".\Orginal_5DC.pscx" />
+  </projects>
+  <simulations />
+  <pmr />
+  <messagegrid expanded="">
+    <column name="Icon" />
+    <column name="Id" />
+    <column name="Component" />
+    <column name="Namespace" />
+    <column name="Description" />
+  </messagegrid>
+</workspace>
